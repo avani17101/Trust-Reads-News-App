@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<style>
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: "news.jpg";
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+}
+
+.result {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+</style>
+<head>
+    <title>Trust Reads</title>
+</head>
+<body>
+
+
+<h1> Now Read from trusted sources </h1>
+<form action="{{ url_for('main') }}" method="POST">
+    <fieldset>
+        <legend>What news you want to read on:</legend>
+        Enter Topic:
+        <input name="query" required>
+        <br>
+        <input type="submit" align="center" name="search">
+    </fieldset>
+</form>
+<br>
+<div class="result" align="center">
+    {% if result %}
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}
+        {% endfor %}
+        <br>
+        <br> URLs exptracted from trusted sources:
+
+           <p style="font-size:15px">
+           <ul>
+           {%for i in range(0, len)%} 
+               <li>{{result[i]}}</li> 
+            {%endfor%} 
+            </ul>
+            </p>
+    {% endif %}
+</div>
+<div class="bg">
+
+</div>
+</body>
+</html>
