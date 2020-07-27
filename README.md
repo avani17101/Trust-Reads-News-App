@@ -17,8 +17,8 @@ Clone the repo, cd, download dependencies using "npm install" and type "flask ru
 
 
 ## Future work
-This can be made into a chrome extention and can simply we used to filter the search results when we want to verify the genuinity of news.
+This can be made into a chrome extention and can simply be used to filter the search results when we want to verify the genuinity of news.
 
 
 ## Alternative strategy
-Showing all results but showing the fake news sites in the search as flagged will serve the similar purpose.
+Showing all results but showing the fake news sites in the search as flagged will serve a similar purpose.
