@@ -3,7 +3,7 @@ Often we want to verify whether a news is real/fake and google search the news a
 
 This project is an attempt to combat this problem by considering a simple fact that if a news is not there in trusted sources it's probably a fake news.
 
-# Trust Reads: Now read from trusted soruces
+# Trust Reads: Now read from trusted sorrces
 An app where user can enter the topic he wants to read on/verify and get links only from trusted news sources. <br>
 ![Trust Reads](https://github.com/avani17101/ML-models-and-simple-python-codes-deployment-in-webapps/blob/master/trustReads_newsApp/TrustReads.png)
 
