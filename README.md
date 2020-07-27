@@ -1,4 +1,4 @@
-
+## Motivation and Introduction
 Often we want to verify whether a news is real/fake and google search the news and get fake websites on top which leads to more confusion. This happens in case of fake news. The news is not contained in trusted sources but is there is fake websites thus they are displayed on top because of googles SEO and word match. Thus it becomes more confusing to verify the genuinity of news when it is fake. 
 
 This project is an attempt to combat this problem by considering a simple fact that if a news is not there in trusted sources it's probably a fake news.
