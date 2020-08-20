@@ -9,7 +9,7 @@ An app where user can enter the topic he wants to read on/verify and get links o
 
 
 ## Methodology
-I have written a python script using Google Search library which is given the list of trusted news sources(2 souces for testing purpose here) and deployed it in flask.
+I have written a python script using Google Search library which is given the list of trusted news sources(3 sources for testing purpose here) and deployed it in flask.
 
 
 ## For run
